@@ -163,6 +163,7 @@ jobs:
           CONFIG_PACKAGE_kmod-usb2=y
           CONFIG_PACKAGE_kmod-usb2-pci=y
           CONFIG_PACKAGE_kmod-usb3=y
+          EOF
           
           # 无线驱动
           cat >> .config <<EOF
@@ -179,6 +180,7 @@ jobs:
           CONFIG_PACKAGE_kmod-mac80211=y
           CONFIG_PACKAGE_MAC80211_DEBUGFS=y
           CONFIG_PACKAGE_MAC80211_MESH=y
+          EOF
 
 
           # USB3.0支持:
